@@ -1,0 +1,9 @@
+{
+  "@@last_modified": "2019-04-16T20:24:37.923212",
+  "appTitle": "Lone Wolf Game Books",
+  "@appTitle": {
+    "description": "The title of the application",
+    "type": "text",
+    "placeholders": {}
+  }
+}
