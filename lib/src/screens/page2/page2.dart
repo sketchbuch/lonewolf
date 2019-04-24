@@ -1,21 +1,20 @@
 import 'package:flutter/material.dart';
-import '../constants/routes.dart';
-import '../localisation/localise.dart';
+import 'package:lonewolf/src/localisation/app_localizations.dart';
 
-class Page1 extends StatelessWidget {
+class Page2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.light(),
       home: Scaffold(
         appBar: AppBar(
-          title: Text(AppLocalizations.of(context).titlePage1),
+          title: Text(AppLocalizations.of(context).titlePage2),
         ),
         body: Center(
           child: RaisedButton(
-            child: Text(AppLocalizations.of(context).openRoute),
+            child: Text(AppLocalizations.of(context).closeRoute),
             onPressed: () {
-              Navigator.pushNamed(context, Routes.second);
+              Navigator.pop(context);
             },
           ),
         ),

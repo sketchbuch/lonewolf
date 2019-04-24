@@ -1,7 +1,37 @@
 {
-  "@@last_modified": "2019-04-16T20:24:37.923212",
-  "appTitle": "Lone Wolf Game Books",
-  "@appTitle": {
+  "@@last_modified": "2019-04-21T09:23:38.595774",
+  "homeTitle": "Lone Wolf Game Books",
+  "@homeTitle": {
+    "description": "The App Bar title.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "homeDownload": "Download books",
+  "@homeDownload": {
+    "description": "The home screen download button text.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "homeWelcomeText1": "Welcome to Lone Wolf Game Books.",
+  "@homeWelcomeText1": {
+    "description": "The first welcome text when there are no books loaded.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "homeWelcomeText2": "Before you can start playing you need to download the books from Project Aon.",
+  "@homeWelcomeText2": {
+    "description": "The second welcome text when there are no books loaded.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "titlePage2": "Lone Wolf Game Books Page 2",
+  "@titlePage2": {
+    "description": "The title sccreen 2",
+    "type": "text",
+    "placeholders": {}
+  },
+  "closeRoute": "Go Back",
+  "@closeRoute": {
     "description": "The title of the application",
     "type": "text",
     "placeholders": {}

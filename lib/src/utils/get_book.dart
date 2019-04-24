@@ -1,21 +1,12 @@
-import 'package:http/http.dart' as http;
-
-Future<int> getData() async {
-  var response = await http.get('https://www.projectaon.org/data/trunk/en/xml/01fftd.xml');
-  return response.statusCode;
-}
+import 'package:http/http.dart' as https;
 
 
-String getAonBook() {
-  var response = getData();
-  if (response == 200) {
-    print('200 - ' + response.toString());
+Future<int> getAonBook() async {
+  var response = await https.get('https://www.projectaon.org/data/trunk/en/xml/01fftd.xml');
+  if (response.statusCode == 200) {
+    print('200 - ' + response.body.toString());
   } else {
     print('100 - ' + response.toString());
     throw Exception('Failed to load data');
   }
-
-  print('statusCode: ' + response.toString());
-
-  return 'error';
 }

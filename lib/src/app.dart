@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import './constants/routes.dart';
-import './localisation/localise.dart';
-import './screens/page1.dart';
-import './screens/page2.dart';
+import 'package:lonewolf/src/constants/routes.dart';
+import 'package:lonewolf/src/localisation/app-localizations-delegate.dart';
+import 'package:lonewolf/src/screens/home/home.dart';
+import 'package:lonewolf/src/screens/page2/page2.dart';
 
 class App extends StatelessWidget {
   @override
@@ -14,7 +14,7 @@ class App extends StatelessWidget {
       // Routing
       initialRoute: '/',
       routes: {
-        Routes.home: (context) => Page1(),
+        Routes.home: (context) => HomeScreen(),
         Routes.second: (context) => Page2(),
       },
 
