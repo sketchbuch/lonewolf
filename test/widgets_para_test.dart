@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import '../para.dart';
+import 'package:lonewolf/src/widgets/para/para.dart';
 
 void main() {
   group('Widgets > Para:', () {

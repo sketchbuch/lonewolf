@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../localisation/app_localizations.dart';
-import '../../widgets/para/para.dart';
-import '../../utils/get_book.dart';
+import 'package:lonewolf/src/localisation/app_localizations.dart';
+import 'package:lonewolf/src/widgets/para/para.dart';
+import 'package:lonewolf/src/utils/get_book.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
